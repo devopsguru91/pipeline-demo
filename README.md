@@ -1,3 +1,3 @@
 # pipeline-demo
 
-changes to invoke webhook
+changes to invoke poll scm
