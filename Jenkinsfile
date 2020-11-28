@@ -1,4 +1,4 @@
-node('linux-agent') {
+node() {
    def mvnHome
    stage('Preparation') { 
       
