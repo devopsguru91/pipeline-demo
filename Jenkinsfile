@@ -4,11 +4,11 @@ node('windows-node') {
       
       git 'https://github.com/devopsguru91/simple-maven-project-with-tests'
                 
-      mvnHome = "C:\Users\Administrator\Downloads\apache-maven\apache-maven-3.8.1"
+      mvnHome = "C:\\Users\\Administrator\\Downloads\\apache-maven\\apache-maven-3.8.1"
    }
    stage('Build') {
       
-         bat "'${mvnHome}\bin\mvn' -Dmaven.test.failure.ignore clean package"
+         bat "'${mvnHome}\\bin\\mvn' -Dmaven.test.failure.ignore clean package"
       
    }
    stage('Results') {
