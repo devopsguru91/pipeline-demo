@@ -4,7 +4,7 @@ node('windows-node') {
       
       git 'https://github.com/devopsguru91/simple-maven-project-with-tests'
                 
-      mvnHome = ' C:\\ProgramData\\chocolatey\\lib\\maven\\apache-maven-3.8.1\\'
+      mvnHome = ' C:\\maven'
    }
    stage('Build') {
       
